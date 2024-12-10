@@ -1,3 +1,4 @@
+const csrf = require('csurf')
 const express = require('express')
 const globalState = require('./global-state')
 const app = express()
@@ -16,6 +17,7 @@ const initFileServer = require('../lib/file-server')
 app.use(express.urlencoded({ extended: false }))
 
 // parse application/json
+app.use(csrf())
 app.use(express.json())
 
 require('express-ws')(app, undefined, {
