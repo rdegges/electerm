@@ -127,7 +127,7 @@
     "node-pty": "1.1.0-beta13",
     "os-locale-s": "1.0.8",
     "serialport": "10.4.0",
-    "socks": "2.7.1",
+    "socks": "2.8.3",
     "socks-proxy-agent": "8.0.1",
     "socksv5-electron": "^0.0.6",
     "ssh-config": "5.0.1",
