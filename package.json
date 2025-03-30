@@ -104,7 +104,7 @@
     "@electerm/rdpjs": "^1.0.0",
     "@electerm/strip-ansi": "1.0.0",
     "@yetzt/nedb": "1.8.0",
-    "axios": "^1.7.7",
+    "axios": "^1.8.3",
     "commander": "12.1.0",
     "dayjs": "^1.11.13",
     "diffie-hellman": "^5.0.3",
